@@ -83,6 +83,7 @@ class TestBooksCollector:
             'Звонок': 'Ужасы'
         }
 
+
     def test_get_books_for_children(self):
         collector = BooksCollector()
         collector.add_new_book('Назад в будущее')
